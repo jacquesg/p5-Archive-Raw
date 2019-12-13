@@ -84,6 +84,14 @@ Get the libarchive version.
 
 =head1 DOCUMENTATION
 
+=head2 L<Achive::Raw::DiskWriter>
+
+=head2 L<Achive::Raw::Entry>
+
+=head2 L<Achive::Raw::Match>
+
+=head2 L<Achive::Raw::Reader>
+
 =head1 AUTHOR
 
 Jacques Germishuys <jacquesg@striata.com>

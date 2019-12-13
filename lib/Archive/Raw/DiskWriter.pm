@@ -20,7 +20,7 @@ Create a new disk writer.
 
 =head2 write( $entry )
 
-Write C<$entry> to disk. C<$entry> should be an C<Archive::Raw::Entry> object.
+Write C<$entry> to disk. C<$entry> should be an L<C<Archive::Raw::Entry>> object.
 
 =head1 AUTHOR
 

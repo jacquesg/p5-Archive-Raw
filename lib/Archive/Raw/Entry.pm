@@ -15,23 +15,41 @@ A L<Archive::Raw::Entry> represents an entry, similar to C<"struct stat">.
 =head1 METHODS
 
 =head2 pathname( [$pathname] )
+
 =head2 filetype( [$filetype] )
+
 =head2 size_is_set( )
+
 =head2 ctime_is_set( )
+
 =head2 mtime_is_set( )
+
 =head2 is_data_encrypted( )
+
 =head2 is_metadata_encrypted( )
+
 =head2 is_encrypted( )
+
 =head2 size( [$size] )
+
 =head2 uname( [$uname] )
+
 =head2 gname( [$gname] )
+
 =head2 ctime( [$secs, $nano] )
+
 =head2 mtime( [$secs, $nano] )
+
 =head2 mode( [$mode] )
+
 =head2 strmode( )
+
 =head2 gid( [$gid] )
+
 =head2 uid( [$uid] )
+
 =head2 symlink( [$sylink] )
+
 =head2 symlink_type( [$type] )
 
 =head1 AUTHOR
