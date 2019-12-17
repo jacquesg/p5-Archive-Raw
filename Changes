@@ -2,6 +2,9 @@ Revision history for Archive-Raw
 
 {{$NEXT}}
 
+ - Entry->symlink_type() is only available in newer libarchive
+ versions
+
 0.02      2019-12-13 12:55:27+00:00 Europe/London
 
  - Documentation fixes
