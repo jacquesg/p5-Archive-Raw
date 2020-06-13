@@ -35,7 +35,7 @@ our $opt = {};
 
 Getopt::Long::GetOptions(
 	"help" => \&usage,
-	'with-libarchive2-include=s' => \$opt->{'archive'}->{'incdir'},
+	'with-libarchive-include=s' => \$opt->{'archive'}->{'incdir'},
 	'with-libarchive-lib=s@'    => \$opt->{'archive'}->{'libs'},
 ) || die &usage();
 
