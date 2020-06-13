@@ -43,10 +43,17 @@ __END__
 </a>
 =cut
 
-
 =head1 NAME
 
 Archive::Raw - Perl bindings to the libarchive library
+
+=head1 DESCRIPTION
+
+L<libarchive|https://www.libarchive.org> is a multi-format archive and compression
+library.  This module provides Perl bindings to the libarchive API.
+
+B<WARNING>: The API of this module is unstable and may change without warning
+(any change will be appropriately documented in the changelog).
 
 =head1 SYNOPSIS
 
@@ -67,14 +74,6 @@ Archive::Raw - Perl bindings to the libarchive library
 		$entry->pathname ($filename);
 		$writer->write ($entry);
 	}
-
-=head1 DESCRIPTION
-
-L<libarchive|https://www.libarchive.org> is a multi-format archive and compression
-library.  This module provides Perl bindings to the libarchive API.
-
-B<WARNING>: The API of this module is unstable and may change without warning
-(any change will be appropriately documented in the changelog).
 
 =head1 FUNCTIONS
 
