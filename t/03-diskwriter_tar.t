@@ -70,4 +70,8 @@ while (my $entry = $reader->next())
 	}
 }
 
+$reader->close();
+$writer->close();
+
 done_testing;
+

@@ -52,4 +52,8 @@ while (my $entry = $reader->next())
 	ok (-e $filename);
 }
 
+$reader->close();
+$writer->close();
+
 done_testing;
+

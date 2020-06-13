@@ -22,6 +22,10 @@ Create a new disk writer.
 
 Write C<$entry> to disk. C<$entry> should be an L<C<Archive::Raw::Entry>> object.
 
+=head2 close( )
+
+Complete the archive.
+
 =head1 AUTHOR
 
 Jacques Germishuys <jacquesg@striata.com>
