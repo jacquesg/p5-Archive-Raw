@@ -152,6 +152,12 @@ foreach my $test (@library_tests) {
 	}
 }
 
+if ($is_windows)
+{
+	$lib .= ' -lbcrypt';
+}
+
+
 my @deps;
 my @srcs;
 
