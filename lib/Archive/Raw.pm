@@ -83,13 +83,13 @@ Get the libarchive version.
 
 =head1 DOCUMENTATION
 
-=head2 L<Achive::Raw::DiskWriter>
+=head2 L<Archive::Raw::DiskWriter>
 
-=head2 L<Achive::Raw::Entry>
+=head2 L<Archive::Raw::Entry>
 
-=head2 L<Achive::Raw::Match>
+=head2 L<Archive::Raw::Match>
 
-=head2 L<Achive::Raw::Reader>
+=head2 L<Archive::Raw::Reader>
 
 =head1 AUTHOR
 

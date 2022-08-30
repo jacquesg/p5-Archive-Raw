@@ -6,7 +6,7 @@ use Archive::Raw;
 
 =head1 NAME
 
-Archive::Raw::Context - libarchive Entry class
+Archive::Raw::Entry - libarchive Entry class
 
 =head1 DESCRIPTION
 

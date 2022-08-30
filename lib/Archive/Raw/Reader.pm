@@ -6,7 +6,7 @@ use Archive::Raw;
 
 =head1 NAME
 
-Archive::Raw::Context - libarchive Reader class
+Archive::Raw::Reader - libarchive Reader class
 
 =head1 DESCRIPTION
 
